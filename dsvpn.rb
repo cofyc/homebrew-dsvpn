@@ -4,6 +4,7 @@ class Dsvpn < Formula
   url "https://github.com/jedisct1/dsvpn.git",
       :tag      => "0.1.3",
       :revision => "bdeb9298b487505a18feac691056e565ec557bd7"
+  head "https://github.com/jedisct1/dsvpn.git"
 
   def install
     system "make"
